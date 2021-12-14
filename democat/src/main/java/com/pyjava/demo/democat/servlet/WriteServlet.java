@@ -27,4 +27,14 @@ public class WriteServlet extends BaseServlet {
             e.printStackTrace();
         }
     }
+
+    @Override
+    public void init() {
+
+    }
+
+    @Override
+    public void destroy() {
+
+    }
 }

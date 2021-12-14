@@ -29,4 +29,14 @@ public class ReadServlet extends BaseServlet {
             throw e;
         }
     }
+
+    @Override
+    public void init() {
+
+    }
+
+    @Override
+    public void destroy() {
+
+    }
 }
